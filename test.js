@@ -1,5 +1,4 @@
-function funcClick() {
-    var x = document.getElementById("para");
-
-    x.innerHTML = alert(Date())
+document.getElementById("button").onclick = function() {
+    document.getElementById("para").innerHTML = "virus";
+    document.getElementById("button").style.display = "none";
 }
